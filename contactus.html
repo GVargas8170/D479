@@ -1,3 +1,59 @@
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+
+    <nav class="navbar">
+        <ul class="navlinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="food.html">Food</a></li>
+            <li><a href="lodging.html">Lodging</a></li>
+            <li><a href="transportation.html">Transportation</a></li>
+            <li><a href="attractions.html">Attractions</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html" class="active">Contact Us</a></li>
+        </ul>
+    </nav>
+  <body>
+  <main class="contentcontainer">
+    <div class="content">
+        <section class="info">
+
+          <div class="form" style="text-align: center;">
+            <form id="contact" method="POST">
+                <h2>Contact Us Below</h2>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email Address:</label><br>
+                <input type="text" id="email" name="email" required><br>
+                <label for="subject">Topic of Inquiry:</label><br>
+                <select id="subject" name="subject">
+                  <option value="general">General Travel Questions</option>
+                  <option value="lodging">Lodging & Bookings Questions</option>
+                  <option value="attractions">Attractions & Entertainment Questions</option>
+                  <option value="transit">Transportation Questions</option>
+                </select><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" placeholder="How can we help?" required></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+          </div>
+        </section>
+    </div>
+  </main>
+</body>
+    <footer class="footer">
+        <div class="footerinfo">
+            <p class="copyright">&copy; 2026 Taniti. All rights reserved.</p>
+                <ul class="footerlinks">
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><cite>https://images.pexels.com/photos/37943867/pexels-photo-37943867.jpeg?cs=srgb&dl=pexels-nabilnaidu-37943867.jpg&fm=jpg</cite></li>
+                </ul>
+        </div>
+    </footer>
 
 </html>
